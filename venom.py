@@ -115,5 +115,4 @@ def aquatone_enum():
 subdomain_enum()
 massdns()
 masscan()
-aquatone_enum("ipaddr")
-aquatone_enum("subs")
+aquatone_enum()
