@@ -1,16 +1,16 @@
 # Venom
 ## Prerequisites:
-#### Tools in Path variable of your Linux:
+### Tools in Path variable of your Linux:
 ###### amass
 ###### sublist3r
 ###### massdns
 ###### altdns
 ###### aquatone
 
-#### Tools in "GO" binary folder:
+### Tools in "GO" binary folder:
 ###### Subfinder
 
-#### Files from this repository:
+### Files from this repository:
 ###### Venom.sh
 ###### resolvers.txt
 ###### resolve-verify.txt
