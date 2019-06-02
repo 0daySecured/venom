@@ -6,8 +6,6 @@
 ##### massdns
 ##### altdns
 ##### aquatone
-
-### Tools in "GO" binary folder:
 ##### Subfinder
 
 ### Files from this repository:
