@@ -22,3 +22,11 @@
 cd /root/tools/venom/
 bash venom.sh example.com /root/example /root/tools/venom/resolvers.txt /root/tools/venom/resolve-verify.txt
 ```
+
+
+
+# Output:
+#### subdomains.lst -- All subdomains
+#### masscan.xml -- Masscan output in XML
+#### aquatone/ip -- Aquatone screenshots of IP addresses
+#### aquatone/subs -- Aquatone screenshots of subdomains.lst
