@@ -16,5 +16,6 @@
 ## Usage:
 ###### The first argument is domain_name and second argument is working_directory.
 ```
-bash venom.sh example.com /root/hacking/example
+cd /root/tools/venom/
+bash venom.sh example.com /root/example /root/tools/venom/resolvers.txt
 ```
