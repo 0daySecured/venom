@@ -12,8 +12,8 @@
 
 ### Files from this repository:
 ##### Venom.sh
-##### resolvers.txt (Path should be same as script)
-##### resolve-verify.txt (Path should be same as script)
+##### resolvers.txt (This is a list of resolvers, you are free to use your own)
+##### resolve-verify.txt
 
 ## Usage:
 ###### The first argument is domain_name and second argument is working_directory.
