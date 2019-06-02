@@ -1,8 +1,3 @@
-# Variables
-query_dom=$1
-query_dir=$2
-
-
 # Creating required Directories
 
 mkdir -p $2/$1
@@ -15,7 +10,7 @@ mkdir -p $2/$1/aquatone/ip
 # Running Scraping tools
 amass enum -d $1 -o $2/$1/amass.lst &
 
-/root/go/bin/subfinder -v -d $1 -o $2/$1/subfinder.lst &
+subfinder -v -d $1 -o $2/$1/subfinder.lst &
 
 sublist3r -v -d $1 -o $2/$1/sublist3r.lst &
 
@@ -39,7 +34,7 @@ sort $2/$1/scraped.lst $2/$1/altdns.lst | uniq > $2/$1/possiblealt.lst
 
 
 # Using MassDNS to resolve possiblealt.lst
-massdns -s 5000 -r /root/hacking/tools/wdlist/resolvers-public.txt $2/$1/possiblealt.lst -o J -w $2/$1/mass_unverified.json
+massdns -s 5000 -r $3 $2/$1/possiblealt.lst -o J -w $2/$1/mass_unverified.json
 
 
 
@@ -49,7 +44,7 @@ cat $2/$1/mass_unverified.json | awk -F["\""] '{print $16":"$4}' | grep '^A:' | 
 
 
 # Using MassDNS to verify mass_unverified.lst
-massdns -s 4 -r /root/hacking/tools/wdlist/last_resolve.txt $2/$1/mass_unverified.lst -o J -w $2/$1/mass_verified.json
+massdns -s 4 -r $4 $2/$1/mass_unverified.lst -o J -w $2/$1/mass_verified.json
 
 
 # Taking out subdomains and IP addresses from mass_verfied.json
