@@ -15,6 +15,11 @@
 ##### resolve-verify.txt
 ##### altdns.txt
 
+
+### Setup:
+###### 1. Clone this repository.
+###### 2. Used the commands mentioned in the Usage section.
+
 ## Usage:
 ###### The first argument is domain_name
 ###### The second argument is working_directory.
