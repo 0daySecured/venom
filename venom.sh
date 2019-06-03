@@ -24,7 +24,7 @@ sort $2/$1/amass.lst $2/$1/subfinder.lst $2/$1/sublist3r.lst | uniq > $2/$1/scra
 
 
 # Running Altdns on the scraped list to find permuted possible subdomains
-altdns -i $2/$1/scraped.lst -w /root/hacking/tools/wdlist/altdns.txt -o $2/$1/altdns.lst
+altdns -i $2/$1/scraped.lst -w $5 -o $2/$1/altdns.lst
 
 
 
