@@ -17,8 +17,9 @@
 
 
 ### Setup:
-###### 1. Clone this repository.
-###### 2. Used the commands mentioned in the Usage section.
+###### 1. Install all prerequisites.
+###### 2. Clone this repository.
+###### 3. Used the commands mentioned in the Usage section.
 
 ## Usage:
 ###### The first argument is domain_name
