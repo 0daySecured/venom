@@ -63,3 +63,11 @@ masscan -p1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,
 cat $2/$1/masscan.xml | aquatone -nmap -scan-timeout 1000 -threads 2 -out $2/$1/aquatone/ip/
 
 cat $2/$1/subdomains.lst | aquatone -scan-timeout 1000 -threads 2 -out $2/$1/aquatone/subs/
+
+
+
+# Removing files that are no longer needed
+rm $2/$1/possiblealt.lst
+rm $2/$1/altdns.lst
+rm $2/$1/mass_unverified.json
+rm $2/$1/mass_unverified.lst
