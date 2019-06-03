@@ -31,3 +31,6 @@ bash venom.sh example.com /root/example /root/tools/venom/resolvers.txt /root/to
 #### masscan.xml -- Masscan output in XML
 #### aquatone/ip -- Aquatone screenshots of IP addresses
 #### aquatone/subs -- Aquatone screenshots of subdomains.lst
+#### amass.lst -- Raw list by Amass
+#### subfinder.lst -- Raw list by Subfinder
+#### sublist3r.lst -- Raw list by Sublist3r
