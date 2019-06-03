@@ -20,9 +20,11 @@
 ###### The second argument is working_directory.
 ###### The third argument is DNS resolvers list placed in file "resolvers.txt"
 ###### The fourth argument is list of two Google DNS resolvers for last verification of subdomains is done by using Google Dns servers 8.8.8.8 & 8.8.4.4
+###### The fifth argument is AltDNS wordlist called altdns.txt from this repository.
 ```
 cd /root/tools/venom/
-bash venom.sh example.com /root/example /root/tools/venom/resolvers.txt /root/tools/venom/resolve-verify.txt
+
+bash venom.sh example.com /root/example /root/tools/venom/resolvers.txt /root/tools/venom/resolve-verify.txt /root/tools/venom/altdns.txt
 ```
 
 
