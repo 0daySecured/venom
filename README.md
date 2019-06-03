@@ -1,5 +1,5 @@
 # Venom
-###### This script Takes domain name, working directory path, huge list of DNS resolver and a list of Google DNS servers 8.8.8.8 & 8.8.4.4. And You get the output in the working directory as Aquatone Screenshots, a subdomains.lst list of subdomains found, a ip.lst list of IP addresses and Masscan XML
+###### This script takes domain name, working directory path, huge list of DNS resolver and a list of Google DNS servers 8.8.8.8 & 8.8.4.4. And You get the output in the working directory as Aquatone Screenshots, a subdomains.lst list of subdomains found, a ip.lst list of IP addresses and Masscan XML
 ## Prerequisites:
 ### Tools in Path variable of your Linux:
 ##### amass
