@@ -29,7 +29,7 @@ altdns -i $2/$1/scraped.lst -w $5 -o $2/$1/altdns.lst
 
 
 # Merging Scraped list and AltDNS list
-sort $2/$1/scraped.lst $2/$1/altdns.lst | uniq > $2/$1/possiblealt.lst
+sort -S 50% $2/$1/scraped.lst $2/$1/altdns.lst | uniq > $2/$1/possiblealt.lst
 
 
 
