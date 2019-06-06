@@ -43,3 +43,8 @@ bash venom.sh example.com /root/example /root/tools/venom/resolvers.txt /root/to
 #### amass.lst -- Raw list by Amass
 #### subfinder.lst -- Raw list by Subfinder
 #### sublist3r.lst -- Raw list by Sublist3r
+
+# Current Version
+## 2.1
+### Change Log
+##### Sorting made faster for hard disk users
